@@ -1,0 +1,17 @@
+Topic: (process.argv)
+
+•	The process.argv is a node command line that takes in an array element numbers from 0 to 1,2,3 etc.  For process.argv to work you 
+
+When console.log(process.argv[0]) is inputted inside a filename.js and saved.  On the terminal, you man or call upon node filename.js , it prints the path  where node is located on your computer like this: /usr/local/bin/node. 
+
+•	Also, when console.log(process.argv[1] is inputted inside a filename.js and saved.  On the terminal, you man or call upon node filename.js, it prints the path  where the filename.js is   is located on your computer like this:  /Users/user/my-journey-with-Mentorship/NodeSchool_JavaScriptProject/count-to-6-exercise-JavaScript/hello.js
+
+•	When console.log(process.argv[2] is inputted inside a filename.js and saved.  On the terminal, you man or call upon node filename.js Damilola goes to school, it prints Damilola 
+
+•	When console.log(process.argv[3] is inputted inside a filename.js and saved.  On the terminal, you man or call upon node filename.js Damilola goes to school, it prints goes
+
+•	When console.log(process.argv[4] is inputted inside a filename.js and saved.  On the terminal, you man or call upon node filename.js Damilola goes to school, it prints to 
+
+
+•	When console.log(process.argv[5] is inputted inside a filename.js and saved.  On the terminal, you man or call upon node filename.js Damilola goes to school, it prints school and so on
+

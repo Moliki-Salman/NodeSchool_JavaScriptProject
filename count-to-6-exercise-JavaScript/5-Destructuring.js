@@ -1,9 +1,4 @@
-let userInfo = {
-        userId: "01",
-        username: "meen",
-        email:"sa@hmail",
-        firstName: "Dan",
-        lastName: "Man",
-} 
-let {uername: newUserName, email} = userInfo;
-console.log(newUserName, email)
+let userArray = process.argv.slice(2);
+let userObj = {};
+[, userObj.username, userObj.email] = userArray;
+console.log(userObj);

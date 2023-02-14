@@ -1,0 +1,10 @@
+module.exports = {
+     repeatString: function(string, times) {
+    var  a = "!";
+    if (times > 0) {
+        return (`${string}`+ a.repeat(times));
+    }
+     else
+     return " ";
+}
+}

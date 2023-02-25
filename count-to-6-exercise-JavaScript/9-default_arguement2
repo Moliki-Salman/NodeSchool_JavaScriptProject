@@ -1,10 +1,9 @@
-module.exports = {
-     repeatString: function(string, times) {
-    var  a = "!";
+const repeatString  = (string = "Aminah", times = 3) => {
+    var exclamation = "!"
     if (times > 0) {
-        return (`${string}`+ a.repeat(times));
-    }
-     else
-     return " ";
+        return (`${string}` + exclamation.repeat(times));
+    } else 
+        return ''; 
 }
-}
+console.log(repeatString());
+module.exports = {repeatString} 
